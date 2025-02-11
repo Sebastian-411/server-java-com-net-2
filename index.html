@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¡OMG! ¡Doritos!</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            overflow: hidden;
+        }
+        .meme-image {
+            width: 50%;
+            max-width: 400px;
+            border: 5px solid #ff0000;
+            box-shadow: 0 0 20px #00ff00;
+            margin-top: 50px;
+            animation: rotate 5s linear infinite, scale 2s ease-in-out infinite, skew 3s ease-in-out infinite;
+        }
+        .caption {
+            font-size: 2em;
+            color: #00ff00;
+            text-shadow: 2px 2px #ff0000;
+            margin-top: 20px;
+            animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes scale {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        @keyframes skew {
+            0% {
+                transform: skew(0deg, 0deg);
+            }
+            25% {
+                transform: skew(10deg, 10deg);
+            }
+            50% {
+                transform: skew(0deg, 0deg);
+            }
+            75% {
+                transform: skew(-10deg, -10deg);
+            }
+            100% {
+                transform: skew(0deg, 0deg);
+            }
+        }
+        @keyframes blink {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>zzzzzzzzzzzzzzzz</h1>
+    <img src="https://play-lh.googleusercontent.com/d2zqBFBEymSZKaVg_dRo1gh3hBFn7_Kl9rO74xkDmnJeLgDW0MoJD3cUx0QzZN6jdsg=w240-h480-rw" alt="Meme de Doritos" class="meme-image">
+    <div class="caption">_______</div>
+</body>
+</html>
